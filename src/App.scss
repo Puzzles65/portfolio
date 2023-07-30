@@ -1,0 +1,22 @@
+
+@import 'animate.css';
+
+
+// @font-face {
+//   font-family: 'Helvetica Neue';
+//   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+// }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  color: orange;
+  background: lightsalmon;
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
