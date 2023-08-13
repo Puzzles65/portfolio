@@ -1,5 +1,10 @@
 import '../Layout/Layout.scss'
+import Navbar from '../Navbar/Navbar'
 
 export default function Layout() {
-    return <h1>Layout</h1>
+    return (
+        <>
+            <Navbar />
+        </>
+    )
 }
