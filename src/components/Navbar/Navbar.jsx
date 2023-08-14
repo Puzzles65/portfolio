@@ -1,6 +1,6 @@
 import '../Navbar/Navbar.scss'
 import { Link, NavLink } from 'react-router-dom'
-import logo from '../../assets/images/samplelogo.avif'
+import logo from '../../assets/images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHouse, faUser, faAddressBook, faGear, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -9,7 +9,6 @@ const Navbar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={logo} alt="logo" />
-            <h3 className='name'>Chi Trung</h3>
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
