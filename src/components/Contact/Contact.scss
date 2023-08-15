@@ -1,0 +1,33 @@
+#contact {
+    text-align: center;
+    margin: 2rem;
+  }
+  
+  #contact h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin-bottom: 17rem;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 18rem;
+  }
+  
+  .contact-links a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 15rem;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-links a:hover {
+    color: lightblue;
+  }
+  
