@@ -15,19 +15,41 @@
       margin-top: 1rem;
   
       .skill {
+        position: relative;
         width: 25%;
-        padding: 1rem;
+        padding: 2rem;
         display: flex;
         flex-direction: column;
         align-items: center;
   
         svg {
           margin-bottom: 0.5rem;
-          font-size: 3rem;
+          font-size: 4rem;
+          transition: color 0.3s;
         }
   
         p {
           font-size: 1rem;
+          opacity: 0;
+          transition: opacity 0.3s;
+          position: absolute;
+          top: -40px;
+          left: 50%;
+          transform: translateX(-50%);
+          background-color: lightblue;
+          padding: 8px 16px;
+          border-radius: 10px;
+          white-space: nowrap;
+        }
+  
+        &:hover {
+          svg {
+            color: lightblue;
+          }
+  
+          p {
+            opacity: 1;
+          }
         }
       }
     }
