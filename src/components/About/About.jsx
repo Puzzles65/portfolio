@@ -4,10 +4,10 @@ import '../About/About.scss';
 
 const About = () => {
     return (
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="about-title">
                 <h2>About Me</h2>
-                <h3>Junior Software Engineer</h3>
+                <h3>Nguyen Chi Trung - Junior Software Engineer</h3>
             </div>
             <div className="profile-content">
                 <div className="profile-picture">
