@@ -11,10 +11,7 @@ const Navbar = () => (
             <img src={logo} alt="logo" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHouse} color="#00ADB5" />
-            </NavLink>
-            <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
+            <NavLink exact="true" activeclassname="active" className="about-link" to="/">
                 <FontAwesomeIcon icon={faUser} color="#00ADB5" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="skills-link" to="/skills">

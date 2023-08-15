@@ -66,12 +66,6 @@
                 transition: all 0.3 ease-out;
             }
 
-            &:first-child {
-                &::after {
-                    content: 'HOME';
-                }
-            }
-
         }
 
         a.about-link {

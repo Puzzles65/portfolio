@@ -1,10 +1,12 @@
 import '../Layout/Layout.scss'
 import Navbar from '../Navbar/Navbar'
 
-export default function Layout() {
+
+export default function Layout({ children }) {
     return (
-        <>
-            <Navbar />
-        </>
-    )
+      <div className="layout-container">
+        <Navbar />
+        <main>{children}</main>
+      </div>
+    );
 }
