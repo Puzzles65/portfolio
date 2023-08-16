@@ -1,0 +1,50 @@
+
+.projects {
+    text-align: center;
+    
+    h2 {
+      margin: 20px 0;
+      font-size: 34px;
+      margin-bottom: 60px;
+    }
+  
+    .carousel {
+      max-width: 800px;
+      margin: 0 auto;
+      
+      .carousel-item {
+        height: 500px;
+        
+        .d-flex {
+            .image-container {
+                width: 600px;
+                img {
+                    border-radius: 30px;
+                    border: 2px solid black;
+                }
+            }
+
+            .text-content {
+                border: 2px solid black;
+                border-radius: 30px;
+                width: 400px;
+                margin-left: 10px;
+            }
+        }
+
+        h5 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 15px;
+            text-align: left;
+            margin-left: 5px;
+        }
+
+      }
+    }
+  }
+
+
+
+//   @import '~bootstrap/scss/bootstrap';

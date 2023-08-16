@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import { Link as ScrollLink } from 'react-scroll'
 import logo from '../../assets/images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHouse, faUser, faAddressBook, faGear, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faAddressBook, faGear, faFolderOpen } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => (
