@@ -21,6 +21,11 @@ function Projects() {
                   <div className="text-content">
                     <h5>{project.title}</h5>
                     <p>{project.description}</p>
+                  <div className="icons-container">
+                    {project.icons.map((Icon, iconIndex) => (
+                    <Icon key={iconIndex} className="icon" />
+                    ))}
+                    </div>
                   </div>
                 </div>
               </Carousel.Item>
