@@ -5,7 +5,7 @@ import projectData from '../../projectData'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
           <h2>Projects</h2>
           <Carousel data-bs-theme="dark">
             {projectData.map((project, index) => (
