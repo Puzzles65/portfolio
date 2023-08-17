@@ -11,13 +11,23 @@ function Projects() {
             {projectData.map((project, index) => (
               <Carousel.Item key={index}>
                 <div className="d-flex">
-                  <div className="image-container">
-                    <img
-                      className="d-block w-100"
-                      src={project.image}
-                      alt={project.title}
-                    />
-                  </div>
+                {project.link ? (
+              <a href={project.link} target="_blank" rel="noreferrer" className="image-container">
+                <img
+                  className="d-block w-100"
+                  src={project.image}
+                  alt={project.title}
+                />
+              </a>
+            ) : (
+              <div className="image-container">
+                <img
+                  className="d-block w-100"
+                  src={project.image}
+                  alt={project.title}
+                />
+              </div>
+            )}
                   <div className="text-content">
                     <h5>{project.title}</h5>
                     <p>{project.description}</p>

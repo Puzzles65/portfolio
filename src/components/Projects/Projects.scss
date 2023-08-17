@@ -21,6 +21,11 @@
                 img {
                     border-radius: 30px;
                     border: 2px solid black;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        border-color: lightblue;
+                    }
                 }
             }
 
